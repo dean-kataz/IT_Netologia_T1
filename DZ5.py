@@ -1,11 +1,13 @@
 # -*- coding: windows-1251 -*-
 import csv
 import json
+import os
+os.getcwd()
 
 # Путь к файлам
-visit_log_path = 'visit_log.csv'
-categories_path = 'categories.txt'
-funnel_output_path = 'funnel.csv'
+visit_log_path = 'DZ5\\visit_log.csv'
+categories_path = 'DZ5\\categories.txt'
+funnel_output_path = 'DZ5\\funnel.csv'
 
 # Загрузка категорий покупок из файла categories.txt
 purchase_categories = {}
