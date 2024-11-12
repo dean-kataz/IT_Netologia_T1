@@ -22,7 +22,7 @@ def plot_scatter(data):
 def plot_regression(data):
     """Создает линию регрессии к диаграмме рассеяния."""
     plt.figure(figsize=(10, 6))
-    sns.regplot(x='age', y='spending', data=data)
+    sns.regplot(x='age', y='bill', data=data)
     plt.title('Линия регрессии зависимости возраста клиента от расходов')
     plt.show()
 
